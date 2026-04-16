@@ -463,36 +463,38 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
 
           <div class="row">
-            <div class="col-lg-3 filter-sidebar">
-              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
-                <ul class="portfolio-filters isotope-filters">
-                  <li data-filter="*" class="filter-active">All Projects</li>
-                  <li data-filter=".filter-photography">Graphic Design</li>
-                  <li data-filter=".filter-design">Web Design</li>
-                </ul>
-              </div>
-            </div>
+            <div class="col-12">
+    <div class="filters-wrapper text-center" data-aos="fade-up" data-aos-delay="150">
+      <ul class="portfolio-filters isotope-filters">
+        <li data-filter="*" class="filter-active">All Projects</li>
+        <li data-filter=".filter-photography">Graphic Design</li>
+        <li data-filter=".filter-design">Web Design</li>
+      </ul>
+    </div>
+  </div>
 
-            <div class="col-lg-9">
-              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+  <!-- Portfolio Items (below filters) -->
+  <div class="col-12">
+    <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
-                  <div class="portfolio-wrap">
-                    <img src="{% static 'assets/img/portfolio/graphicdesign.jpg' %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                  </div>
-                </div><!-- End Portfolio Item -->
+      <!-- Item -->
+      <div class="col-12 portfolio-item isotope-item filter-photography">
+        <div class="portfolio-wrap">
+          <img src="{% static 'assets/img/portfolio/graphicdesign.jpg' %}" class="img-fluid" alt="">
+        </div>
+      </div>
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
-                  <div class="portfolio-wrap">
-                    <img src="{% static 'assets/img/portfolio/webdesign.jpg' %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                  </div>
-                </div><!-- End Portfolio Item -->
+      <div class="col-12 portfolio-item isotope-item filter-design">
+        <div class="portfolio-wrap">
+          <img src="{% static 'assets/img/portfolio/webdesign.jpg' %}" class="img-fluid" alt="">
+        </div>
+      </div>
 
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                <div class="col-12 portfolio-item isotope-item filter-photography">
                   <div class="portfolio-wrap">
                     <img src="{% static 'assets/img/portfolio/portfolio-5.webp' %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                     <div class="portfolio-info">
@@ -508,7 +510,7 @@
                   </div>
                 </div><!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+                <div class="col-12 portfolio-item isotope-item filter-design">
                   <div class="portfolio-wrap">
                     <img src="{% static 'assets/img/portfolio/portfolio-6.webp' %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                     <div class="portfolio-info">
