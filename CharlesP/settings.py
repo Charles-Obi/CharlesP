@@ -13,7 +13,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-5^-^eqztuo_7d&c7z34
 DEBUG = os.getenv('DJANGO_DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = [
-    'https://charles-portfolio-k5y2.onrender.com/',
+    'charles-portfolio-k5y2.onrender.com', 
     'localhost',
     '127.0.0.1'
 ]
